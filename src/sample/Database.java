@@ -10,7 +10,7 @@ public class Database {
     public Database() {
 
         try {
-            String url = "jdbc:sqlite:jdbc:sqlite:minidb.db";
+            String url = "jdbc:sqlite:minidb.db";
             //Windows og MAC bruger forskellige PAth separatorer. Linux/mac bruger maaske / hvor Windows i Java bruger \\
             conn = DriverManager.getConnection(url);
             System.out.println("Forbindelse oprettet");

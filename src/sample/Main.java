@@ -38,9 +38,15 @@ public class Main extends Application {
     public static void main(String[] args) {
         //launch(args);
 
-        Database db = new Database();
+//        Database db = new Database();
 
-       /* ArrayList<Double> data = db.indsaetrandomfyld(300);
+        Chartklasse ck = new Chartklasse("lol hejhej");
+
+ck.setVisible(true);
+ck.pack();
+
+
+               /* ArrayList<Double> data = db.indsaetrandomfyld(300);
         Graphclass gp = new Graphclass(data);
         JFrame frame = new JFrame("EKG");
         frame.setVisible(true);
