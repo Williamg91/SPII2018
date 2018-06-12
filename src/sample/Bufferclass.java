@@ -13,6 +13,6 @@ buffer = new ArrayList<Double>();
 
     }
 
-    public
+
 
 }

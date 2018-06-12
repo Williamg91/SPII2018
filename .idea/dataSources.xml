@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="GruppeVIII" uuid="ddbef501-b7de-4b15-9d33-cbeab09a3f34">
+    <data-source source="LOCAL" name="minidb.db" uuid="db3b1c62-47d2-47a6-a81d-3dbb3c8cbf6d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>SQLite</remarks>
+      <remarks>Fra stationær</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\William\IdeaProjects\SPII2018\src\sample\GruppeVIII.db</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="SPDB" uuid="158c5cec-9c00-4ba5-b9b7-b05cfaa9b0c0">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <remarks>Lavet via IntelliJ</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/src/sample\SPDB</jdbc-url>
+      <jdbc-url>jdbc:sqlite:minidb.db</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
