@@ -46,7 +46,7 @@ public class Chartklasse extends ApplicationFrame {
         for (double value: al)
              dataset.addValue(value,"schools",""+counter);
         counter++;
-        ) {
+         {
 
         }
     }

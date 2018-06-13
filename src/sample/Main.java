@@ -16,6 +16,7 @@ import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
+
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -38,20 +39,20 @@ public class Main extends Application {
     public static void main(String[] args) {
         //launch(args);
 
-//        Database db = new Database();
+       Database db = new Database();
 
         Chartklasse ck = new Chartklasse("lol hejhej");
 
-ck.setVisible(true);
-ck.pack();
+        ck.setVisible(true);
+        ck.pack();
 
 
-               /* ArrayList<Double> data = db.indsaetrandomfyld(300);
+                ArrayList<Double> data = db.indsaetrandomfyld(300);
         Graphclass gp = new Graphclass(data);
         JFrame frame = new JFrame("EKG");
         frame.setVisible(true);
         frame.add(gp);
         frame.setSize(1000, 600);
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);*/
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }

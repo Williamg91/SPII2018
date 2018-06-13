@@ -39,8 +39,8 @@ public class Database {
         // System.out.println("Gylles indhold:");
 
         double min, max;
-        min = 35.5;
-        max = 38.5;
+        min = 0.01;
+        max = 0.995;
         Random r = new Random();
         for (int i = 0; i < size; i++) {
 
