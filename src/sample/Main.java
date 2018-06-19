@@ -19,6 +19,7 @@ import org.jfree.ui.RefineryUtilities;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Main extends Application {
 
@@ -39,20 +40,44 @@ public class Main extends Application {
     public static void main(String[] args) {
         //launch(args);
 
-       Database db = new Database();
+        Database db = new Database();
 
-        Chartklasse ck = new Chartklasse("lol hejhej");
+       /*
+        Chartklasse ck = new Chartklasse("EKG");
+
 
         ck.setVisible(true);
         ck.pack();
 
 
-                ArrayList<Double> data = db.indsaetrandomfyld(300);
+          ArrayList<Double> data = randomfyld(300);
+          ck.setMaalinger(data);
+
         Graphclass gp = new Graphclass(data);
         JFrame frame = new JFrame("EKG");
         frame.setVisible(true);
         frame.add(gp);
         frame.setSize(1000, 600);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+*/
+
+    }
+
+    private static ArrayList<Double> randomfyld(int size) {
+        ArrayList<Double> gylle = new ArrayList<>();
+        // System.out.println("Gylles indhold:");
+
+        double min, max;
+        min = 0.01;
+        max = 0.995;
+        Random r = new Random();
+        for (int i = 0; i < size; i++) {
+
+            gylle.add(min + (max - min) * r.nextDouble());
+//double resultat = min+(max-min)*r.nextDouble();
+            //   System.out.println(gylle.get(i));
+        }
+
+        return gylle;
     }
 }

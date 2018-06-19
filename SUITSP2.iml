@@ -8,9 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="sqlite-jdbc-master" level="project" />
+    <orderEntry type="library" name="sqlite" level="project" />
     <orderEntry type="library" name="jssc" level="project" />
     <orderEntry type="library" name="jssc-2.8.0" level="project" />
+    <orderEntry type="library" name="SQLITE" level="project" />
     <orderEntry type="library" name="sqlite-jdbc-3.23.1" level="project" />
   </component>
 </module>
